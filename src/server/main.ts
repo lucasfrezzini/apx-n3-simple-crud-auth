@@ -4,6 +4,8 @@ import bcrypt from "bcrypt";
 import { Auth } from "./src/model/auth";
 import { User } from "./src/model/users";
 
+const SECRET_TEXT = "secretText";
+
 const app = express();
 
 app.use(express.json());
@@ -42,6 +44,7 @@ app.post("/auth", async (req, res) => {
 });
 
 // signin
+app.post("/auth/token", async (req, res) => {});
 
 // me
 
