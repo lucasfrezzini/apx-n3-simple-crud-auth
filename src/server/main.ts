@@ -44,7 +44,11 @@ app.post("/auth", async (req, res) => {
 });
 
 // signin
-app.post("/auth/token", async (req, res) => {});
+app.post("/auth/token", async (req, res) => {
+  // buscar el usuario a partir de los datos
+  // verificamos que la contraseña concuerde con el hash
+  // generamos el token nuevo y lo devolvemos
+});
 
 // me
 
