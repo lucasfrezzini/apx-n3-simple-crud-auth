@@ -1,7 +1,7 @@
 import { Sequelize } from "sequelize";
 
 export const sequelize = new Sequelize(
-  "postgresql://neondb_owner:I9iLdQF6AuEJ@ep-autumn-scene-a5sdfrjt.us-east-2.aws.neon.tech/neondb?sslmode=require"
+  "postgresql://neondb_owner:eka9rExwP5zd@ep-long-violet-a5ram0nc.us-east-2.aws.neon.tech/neondb?sslmode=require"
 );
 
 (async () => {
